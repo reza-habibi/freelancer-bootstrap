@@ -85,6 +85,7 @@ textarea {
   outline: none !important;
   border-bottom: 1px solid rgba(128, 123, 123, 0.6) !important;
   border-radius: 0 !important;
+  resize: none !important;
 }
 
 label {
