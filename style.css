@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-header {
+  height: 5rem;
+  background: #2c3e50;
+  z-index: 10000;
+}
+
+.section-1 {
+  background: #1abc9c;
+  margin-top: 5rem;
+  min-height: 34rem;
+}
+
+.section-2 {
+  background: #fff;
+  min-height: 45rem;
+}
+
+.section-3 {
+  background: #1abc9c;
+  min-height: 30rem;
+}
+
+.section-4 {
+  background: #fff;
+  min-height: 50rem;
+}
+
+.section-5 {
+  background: #2c3e50;
+  min-height: 15rem;
+}
+
+.my-footer {
+  height: 5rem;
+  background: #1a252f;
+}
+
+#menu {
+  top: 0;
+  background: #2c3e50 !important;
+}
+
+.divider {
+  width: 8rem;
+  height: 0.3rem;
+}
+
+.divider-icon svg {
+  height: 3rem;
+}
+
+.profile img {
+  width: 15rem;
+}
+
+nav button {
+  background: #1abc9c !important;
+  border-radius: 10px !important;
+}
+
+.row div img {
+  border-radius: 10px;
+}
+
+.download svg {
+  width: 1.5rem;
+}
+
+input,
+textarea {
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid rgba(128, 123, 123, 0.6) !important;
+  border-radius: 0 !important;
+}
+
+label {
+  display: none !important;
+  color: #1abc9c;
+  transition: 1s;
+}
+
+#sendMessageButton {
+  background: #1abc9c !important;
+  outline: none !important;
+  border: none !important;
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+}
+
+.btn-social svg{
+ width: 1.25rem;
+}
+
+.btn-social{
+  border-radius: 100% !important;
+  display: flex !important;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.lead a{
+  color: #1abc9c;
+}
